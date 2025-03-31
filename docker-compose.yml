@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  bi-container:
+    build: .
+    ports:
+      - "443:3000"
+    env_file:
+      - .env
+
